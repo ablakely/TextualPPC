@@ -9,7 +9,7 @@ export LIBRARY_GPG_ERROR_VERSION="1.21"
 export LIBRARY_GCRYPT_VERSION="1.6.5"
 export LIBRARY_OTR_VERSION="4.1.1"
 
-if [ $1 == "build-libressl" ]; then
+if [ "$1" == "build-libressl" ]; then
 	export LIBRARIES_TO_BUILD="libressl"
 else
 	export LIBRARIES_TO_BUILD="libgpg-error libgcrypt libotr"
@@ -44,8 +44,8 @@ export PATH="${PATH}:${SHARED_RESULT_BINARY_LOCATION}"
 export PLATFORM_BUILD_SDK_ROOT_LOCATION="${SDKROOT}"
 
 export LDFLAGS="-L${SHARED_RESULT_LIBRARY_LOCATION}"
-export CFLAGS=" -arch ppc64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
-export CPPFLAGS=" -arch ppc64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
+export CFLAGS=" -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
+export CPPFLAGS=" -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
 
 function deleteOldAndCreateDirectory {
 	if [ -d "$1" ]; then
