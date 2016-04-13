@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# buidlDependencies.sh
+# Rewrite for PPC and Mac OS X Leopard (10.5.8)
+#
 
 export LIBRARY_LIBRESSL_VERSION="2.2.5";
 export LIBRARY_GPG_ERROR_VERSION="1.21"
@@ -7,7 +11,7 @@ export LIBRARY_OTR_VERSION="4.1.1"
 
 if [ $1 == "build-libressl" ]; then
 	export LIBRARIES_TO_BUILD="libressl"
-else 
+else
 	export LIBRARIES_TO_BUILD="libgpg-error libgcrypt libotr"
 fi
 
@@ -29,19 +33,19 @@ done
 
 if [ ${#LIBRARIES_THAT_DONT_EXIST[@]} == 0 ]; then
 	echo "There is nothing to build..."
-	
+
 	exit 0;
-fi 
+fi
 
 export WORKING_DIRECTORY="${ROOT_DIRECTORY}Library-Build-Source/"
 
 export PATH="${PATH}:${SHARED_RESULT_BINARY_LOCATION}"
 
-export PLATFORM_BUILD_SDK_ROOT_LOCATION=$(xcrun -sdk macosx --show-sdk-path)
+export PLATFORM_BUILD_SDK_ROOT_LOCATION="${SDKROOT}"
 
 export LDFLAGS="-L${SHARED_RESULT_LIBRARY_LOCATION}"
-export CFLAGS=" -arch x86_64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
-export CPPFLAGS=" -arch x86_64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
+export CFLAGS=" -arch ppc64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
+export CPPFLAGS=" -arch ppc64 -isysroot ${PLATFORM_BUILD_SDK_ROOT_LOCATION} -I${SHARED_RESULT_INCLUDE_LOCATION}"
 
 function deleteOldAndCreateDirectory {
 	if [ -d "$1" ]; then
