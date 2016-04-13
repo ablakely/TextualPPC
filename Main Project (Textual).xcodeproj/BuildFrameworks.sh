@@ -9,9 +9,9 @@ rm -rf "${BUILD_DESTINATION_FOLDER}"
 mkdir -p "${BUILD_DESTINATION_FOLDER}"
 
 cd "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/"
-xcodebuild -target "AutoHyperlinks.framework" -configuration "Release" CODE_SIGN_IDENTITY="${CODE_SIGN_IDENTITY}"
-mv "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/Build Results/Release/AutoHyperlinks.framework" "${BUILD_DESTINATION_FOLDER}"
-rm -rf "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/Build Results/"
+xcodebuild -target "AutoHyperlinks.framework" -configuration "Deployment" CODE_SIGN_IDENTITY="${CODE_SIGN_IDENTITY}"
+mv "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/build/Deployment/AutoHyperlinks.framework" "${BUILD_DESTINATION_FOLDER}"
+rm -rf "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/build/"
 rm -rf "${PROJECT_DIR}/Frameworks/Auto Hyperlinks/.tmp/"
 
 cd "${PROJECT_DIR}/Frameworks/Encryption Kit/"

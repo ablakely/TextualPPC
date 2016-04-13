@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -1034,7 +1034,7 @@
 		4CBE64C81743720600831D69 /* TDCHighlightEntrySheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE64C61743720600831D69 /* TDCHighlightEntrySheet.m */; };
 		4CBE64CA1743722100831D69 /* TDCHighlightEntrySheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBE64C91743722100831D69 /* TDCHighlightEntrySheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBE64CB1743722100831D69 /* TDCHighlightEntrySheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBE64C91743722100831D69 /* TDCHighlightEntrySheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CBE7B651A9148BD008FB230 /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; };
+		4CBE7B651A9148BD008FB230 /* Auto Hyperlinks in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; };
 		4CBE7B671A9148BD008FB230 /* CocoaExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; };
 		4CBE7B681A9148BD008FB230 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; };
 		4CBE7B691A9148BD008FB230 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB24A018CAB914007EF6DE /* HockeySDK.framework */; };
@@ -1394,20 +1394,20 @@
 		4CF621D51C7F675A000969CB /* TDCNicknameColorSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF621D21C7F675A000969CB /* TDCNicknameColorSheet.xib */; };
 		4CF621D61C7F675A000969CB /* TDCNicknameColorSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF621D21C7F675A000969CB /* TDCNicknameColorSheet.xib */; };
 		4CF76A451A91153A0088BF9A /* CocoaExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; };
-		4CF76A5A1A9115670088BF9A /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; };
+		4CF76A5A1A9115670088BF9A /* Auto Hyperlinks in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; };
 		4CF76A611A9115710088BF9A /* CocoaExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; };
-		4CF76A661A91157B0088BF9A /* AutoHyperlinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CF76A661A91157B0088BF9A /* Auto Hyperlinks in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A6A1A91157B0088BF9A /* CocoaExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A6B1A91157B0088BF9A /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; };
 		4CF76A6C1A91157B0088BF9A /* Growl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A6D1A91157B0088BF9A /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB24A018CAB914007EF6DE /* HockeySDK.framework */; };
 		4CF76A6E1A91157B0088BF9A /* HockeySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB24A018CAB914007EF6DE /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4CF76A751A9115910088BF9A /* AutoHyperlinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CF76A751A9115910088BF9A /* Auto Hyperlinks in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A791A9115910088BF9A /* CocoaExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A7B1A9115910088BF9A /* Growl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A7D1A9115910088BF9A /* HockeySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB24A018CAB914007EF6DE /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4CF76A831A9116510088BF9A /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; };
-		4CF76A841A9116510088BF9A /* AutoHyperlinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CF76A831A9116510088BF9A /* Auto Hyperlinks in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; };
+		4CF76A841A9116510088BF9A /* Auto Hyperlinks in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A371A91153A0088BF9A /* Auto Hyperlinks */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A881A9116510088BF9A /* CocoaExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CF76A891A9116510088BF9A /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; };
 		4CF76A8A1A9116510088BF9A /* Growl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -1559,7 +1559,7 @@
 			files = (
 				4CF76A6A1A91157B0088BF9A /* CocoaExtensions.framework in Embed Frameworks */,
 				4C8F2F631AAE647D007821CC /* EncryptionKit.framework in Embed Frameworks */,
-				4CF76A661A91157B0088BF9A /* AutoHyperlinks.framework in Embed Frameworks */,
+				4CF76A661A91157B0088BF9A /* Auto Hyperlinks in Embed Frameworks */,
 				4CF76A6C1A91157B0088BF9A /* Growl.framework in Embed Frameworks */,
 				4CF76A6E1A91157B0088BF9A /* HockeySDK.framework in Embed Frameworks */,
 			);
@@ -1574,7 +1574,7 @@
 			files = (
 				4CF76A791A9115910088BF9A /* CocoaExtensions.framework in Embed Frameworks */,
 				4C8F2F651AAE648B007821CC /* EncryptionKit.framework in Embed Frameworks */,
-				4CF76A751A9115910088BF9A /* AutoHyperlinks.framework in Embed Frameworks */,
+				4CF76A751A9115910088BF9A /* Auto Hyperlinks in Embed Frameworks */,
 				4CF76A7B1A9115910088BF9A /* Growl.framework in Embed Frameworks */,
 				4CF76A7D1A9115910088BF9A /* HockeySDK.framework in Embed Frameworks */,
 			);
@@ -1588,7 +1588,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4CF76A881A9116510088BF9A /* CocoaExtensions.framework in Embed Frameworks */,
-				4CF76A841A9116510088BF9A /* AutoHyperlinks.framework in Embed Frameworks */,
+				4CF76A841A9116510088BF9A /* Auto Hyperlinks in Embed Frameworks */,
 				4CF76A8A1A9116510088BF9A /* Growl.framework in Embed Frameworks */,
 				4CF76A8C1A9116510088BF9A /* HockeySDK.framework in Embed Frameworks */,
 				4C8F2F671AAE6491007821CC /* EncryptionKit.framework in Embed Frameworks */,
@@ -2081,7 +2081,7 @@
 		4CF621CA1C7F65DC000969CB /* TDCNicknameColorSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCNicknameColorSheet.m; path = Dialogs/TDCNicknameColorSheet.m; sourceTree = "<group>"; };
 		4CF621CE1C7F65EB000969CB /* TDCNicknameColorSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCNicknameColorSheet.h; sourceTree = "<group>"; };
 		4CF621D31C7F675A000969CB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources/User Interface/English.lproj/TDCNicknameColorSheet.xib"; sourceTree = SOURCE_ROOT; };
-		4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoHyperlinks.framework; path = ".tmp/SharedBuildResults-Frameworks/AutoHyperlinks.framework"; sourceTree = "<group>"; };
+		4CF76A371A91153A0088BF9A /* Auto Hyperlinks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = "Auto Hyperlinks"; path = "Frameworks/Auto Hyperlinks"; sourceTree = "<group>"; };
 		4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaExtensions.framework; path = ".tmp/SharedBuildResults-Frameworks/CocoaExtensions.framework"; sourceTree = "<group>"; };
 		4CFC40DE1969B58F004C6EF4 /* TPCPreferencesUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPCPreferencesUserDefaults.m; path = Preferences/TPCPreferencesUserDefaults.m; sourceTree = "<group>"; };
 		4CFC40E11969B5A0004C6EF4 /* IRCWorldCloudExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRCWorldCloudExtension.m; path = IRC/IRCWorldCloudExtension.m; sourceTree = "<group>"; };
@@ -2101,7 +2101,7 @@
 			files = (
 				4C0BA6231990798800857343 /* AppKit.framework in Frameworks */,
 				4C0BA6241990798800857343 /* AudioToolbox.framework in Frameworks */,
-				4CF76A5A1A9115670088BF9A /* AutoHyperlinks.framework in Frameworks */,
+				4CF76A5A1A9115670088BF9A /* Auto Hyperlinks in Frameworks */,
 				4C0BA6271990798800857343 /* Cocoa.framework in Frameworks */,
 				4CF76A611A9115710088BF9A /* CocoaExtensions.framework in Frameworks */,
 				4C8F2F621AAE647D007821CC /* EncryptionKit.framework in Frameworks */,
@@ -2124,7 +2124,7 @@
 			files = (
 				4C46CCC41580469E00846B64 /* AppKit.framework in Frameworks */,
 				4CBE542A1979F4EA00034B0C /* AudioToolbox.framework in Frameworks */,
-				4CF76A831A9116510088BF9A /* AutoHyperlinks.framework in Frameworks */,
+				4CF76A831A9116510088BF9A /* Auto Hyperlinks in Frameworks */,
 				4C46CCC51580469E00846B64 /* Cocoa.framework in Frameworks */,
 				4CF76A451A91153A0088BF9A /* CocoaExtensions.framework in Frameworks */,
 				4CA8EC681B63C2AB0087BF72 /* CoreServices.framework in Frameworks */,
@@ -2149,7 +2149,7 @@
 			files = (
 				4CBE7B6D1A9148BD008FB230 /* AppKit.framework in Frameworks */,
 				4CBE7B6E1A9148BD008FB230 /* AudioToolbox.framework in Frameworks */,
-				4CBE7B651A9148BD008FB230 /* AutoHyperlinks.framework in Frameworks */,
+				4CBE7B651A9148BD008FB230 /* Auto Hyperlinks in Frameworks */,
 				4CBE7B6F1A9148BD008FB230 /* Cocoa.framework in Frameworks */,
 				4CBE7B671A9148BD008FB230 /* CocoaExtensions.framework in Frameworks */,
 				4CA8EC631B63C2970087BF72 /* CoreServices.framework in Frameworks */,
@@ -2377,7 +2377,7 @@
 		4C46CCCC158046BE00846B64 /* External Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CF76A371A91153A0088BF9A /* AutoHyperlinks.framework */,
+				4CF76A371A91153A0088BF9A /* Auto Hyperlinks */,
 				4CF76A391A91153A0088BF9A /* CocoaExtensions.framework */,
 				4C8F2F5D1AAE6467007821CC /* EncryptionKit.framework */,
 				4CCF2EE1158046F9006FFE21 /* Growl.framework */,
@@ -3976,8 +3976,7 @@
 				};
 			};
 			buildConfigurationList = 4C1DC54C1580420500A47BC9 /* Build configuration list for PBXProject "Main Project (Textual)" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				English,
@@ -5299,7 +5298,9 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = "${PROJECT_DIR}/.tmp/Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Textual;
+				SDKROOT = macosx10.5;
 				STRIPFLAGS = "-S";
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = app;
